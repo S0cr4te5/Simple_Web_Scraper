@@ -1,5 +1,7 @@
 # Simple_Web_Scraper
-This is a simple Python-based web scraper that uses the BeautifulSoup, Selenium, and Webdriver_manager libraries. It allows you to scrape multiple tabs of a single website.
+This is a simple Python-based web scraper that uses the BeautifulSoup, Selenium, and Webdriver_manager libraries. 
+
+It allows you to scrape multiple tabs of a single website.
 
 ## Requirements
 [Python](https://www.python.org/downloads/)
