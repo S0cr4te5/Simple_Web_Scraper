@@ -18,6 +18,7 @@ pip install selenium
 ```bash
 pip install webdriver-manager
 ```
+
 ## Usage
 Set a base URL, element type, element name, range of pages to scrape, and necessary wait time.
 
