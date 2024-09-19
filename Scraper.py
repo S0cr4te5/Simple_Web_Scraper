@@ -15,10 +15,10 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 
 # Set Base URL
-base_url = "https://www.pisos.com/venta/pisos-madrid/"
+base_url = "Add URL"
 
 try:
-    for page_number in range(1, 101):
+    for page_number in range(1, 10):
         # Set complete URL with page number
         page_url = f"{base_url}{page_number}"
         
