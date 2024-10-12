@@ -13,6 +13,8 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
 # Bypass bot detection (only needs to be done once)
 
+script = "Object.defineProperty(navigator, 'webdriver', {get: () => false})"
+driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": script})
 
 # Set Base URL
 base_url = "Add Base URL"
