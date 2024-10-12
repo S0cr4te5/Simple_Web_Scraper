@@ -12,7 +12,6 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled")
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
 
 # Bypass bot detection (only needs to be done once)
-
 script = "Object.defineProperty(navigator, 'webdriver', {get: () => false})"
 driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {"source": script})
 
